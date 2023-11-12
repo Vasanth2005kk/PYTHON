@@ -9,3 +9,4 @@ def count_substring(string, sub_string):
 string=input("enter the string:")#abcdcdc
 sub_string=input("enter the string:")#cdc
 count_substring(string,sub_string)
+a
