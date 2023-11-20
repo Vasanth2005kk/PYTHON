@@ -53,3 +53,15 @@ else:
     print("False")
 
 '''
+#4
+'''s,n=set(input().split()),int(input())
+#s={1,2,3,4,5,6,11,12,15,17}
+#n=4
+#print(s)
+#print(n)
+list_1=[]
+for i in range(n):
+    list_1.append(s.issuperset(set(input().split())))
+print(all(list_1))
+
+'''
