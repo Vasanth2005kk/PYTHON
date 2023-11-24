@@ -15,6 +15,7 @@ def merge_the_tools(string, k):
 if __name__ == '__main__':
     string, k = input("enter the string:"), int(input("enetr the rows:"))
     merge_the_tools(string, k)
+#sort example
 '''# A function that returns the length of the value:
 def myFunc(e):
   return len(e)
