@@ -10,6 +10,19 @@ def solve(s):
     return s.title()
 '''
 def solve(s):
+    s = re.split(" ", s)
+    list_1 = []
+    string = ""
+    for i in s:
+        if re.findall("^[a-zA-z]", i):
+            list_1.append(i.capitalize())
+        else:
+            list_1.append(i)
+    # print(s)
+    # print(list_1)
+    string = " ".join(tuple(list_1))
+    return string
+'''def solve(s):
     s=list(s)
     s.insert(0," ")
     for i in range(len(s)):
@@ -18,8 +31,7 @@ def solve(s):
         else:
             pass
     return "".join(s)[1:]
-
-
+'''
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
