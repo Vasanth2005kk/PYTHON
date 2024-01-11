@@ -27,7 +27,10 @@ if __name__ == '__main__':
         a = list(map(float, input().split()))
         points.append(a)
 
-    a, b, c, d = Points(*points[0]), Points(*points[1]), Points(*points[2]), Points(*points[3])
+    a=Points(*points[0])
+    b=Points(*points[1])
+    c=Points(*points[2])
+    d=Points(*points[3])
     x = (b - a).cross(c - b)
     y = (c - b).cross(d - c)
     angle = math.acos(x.dot(y) / (x.absolute() * y.absolute()))
