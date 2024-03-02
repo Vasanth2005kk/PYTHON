@@ -7,7 +7,7 @@ write a program to validate whether a given string represents a valid IP address
 
 try:
     ip="192.168.0.1"
-    ip_number=[i for i in range(0,255)]
+    ip_number=[i for i in range(0,255+1)]
 
     ip_len=len(ip.split("."))
     ip_count=0
