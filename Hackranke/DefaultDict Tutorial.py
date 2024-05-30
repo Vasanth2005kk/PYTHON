@@ -18,3 +18,28 @@ for i in B:
         print()
     else:
         print(-1)
+
+
+# n,m=map(int,input().split(" "))
+
+# A=[]
+# for i in range(n):
+#     A.append(input())
+# # print(A)
+
+# B=[]
+# for i in range(m):
+#     B.append(input())
+# # print(B)
+
+# # A="".join(A)
+# for i in B:
+#     if i in A:
+#         n=0
+#         for j in range(A.count(i)):
+#             indexing=1+(A.index(i,n))
+#             n=indexing
+#             print(indexing,end=" ")
+#         print()
+#     else:
+#         print(-1)
